@@ -1,3 +1,5 @@
+# !! WIP !!
+
 # MediPy
 
 Mediator pattern implemented for Python, to use with a Clean Architecture pattern. Heavily inspired by MediatR.
