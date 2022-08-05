@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "medipy"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Christian", email="angercraft@gmail.com" },
 ]
