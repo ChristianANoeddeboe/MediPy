@@ -32,6 +32,7 @@ class Mediator(IMediator):
                 class_annotation = test.annotation
                 if class_annotation is inspect.Parameter.empty:
                     raise ValueError("No annotation for argument " + arg)
+                service = None
                 for serv in self.services:
                     if issubclass(serv, class_annotation) or serv == class_annotation:
                         service = self.services[serv]
